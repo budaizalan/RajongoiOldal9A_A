@@ -1,1 +1,1 @@
-Rajongói oldal projekt
+Rajongói oldal projekt:
