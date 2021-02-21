@@ -1,3 +1,12 @@
 .index-logo {
-    height: 70px;
+    height: 100px;
+}
+
+.navbar_icon {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.nav-link {
+    font-size: 23px;
 }
