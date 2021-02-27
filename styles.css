@@ -1,3 +1,4 @@
+
 .index-logo {
     height: 100px;
 }
@@ -28,4 +29,14 @@
 
 nav li a {
     color: white;
+}
+
+.row {
+    padding-left: 25px;
+    padding-top: 50px;
+}
+.esport_faze {
+    height: 200px;
+    width: 350px;
+    cursor: pointer;
 }
