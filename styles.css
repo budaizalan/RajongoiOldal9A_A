@@ -15,7 +15,7 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 #kezdoknekimg{
     height: 100vh;
