@@ -1,50 +1,107 @@
 
-.index-logo {
+.index-logo{
     height: 100px;
 }
 
-#kezdolap_logo {
+#kezdolap_logo{
     height: 40px;
     padding-left: 20px;
 }
 
-.banner {
+.banner{
     height: 100vh;
     width: 100%;
-    background: url(overlay.png),url(index_bgimage.png);
+    background: url(img/overlay.png),url(img/index_bgimage.png);
     background-position: top;
     background-size: cover;
-    /* background-attachment: fixed; */
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
-#kezdoknekimg {
+#kezdoknekimg{
     height: 100vh;
     width: 100%;
-    background: url(overlay.png),url(kezdoknek_bgimage.jpg);
+    background: url(img/overlay.png),url(img/kezdoknek_bgimage.jpg);
     background-position: top;
     background-size: cover;
     /* background-attachment: fixed; */
-    background-repeat: no-repeat;
+    background-repeat: inherit;
 }
 
-nav li a {
+nav li a{
     color: white;
 }
 
-.row {
+.row{
     padding-left: 25px;
     padding-top: 50px;
 }
-.esport_faze {
+.esport_faze{
     height: 250px;
     width: 350px;
     cursor: pointer;
     padding-bottom: 60px;
 }
 
-.esport_cigi {
+.esport_cigi{
     height: 200px;
     width: 350px;
     cursor: pointer;
     padding-bottom: 0px;
+}
+
+.wrapper{
+    font-family: sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.esport_img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: .5s ease;
+    padding-top: 50px;
+    transition: all 0.4s ease-in-out;
+}
+
+.content{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 60px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.content a{
+    font-size: 24px;
+    display: block;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.overlay{
+    opacity: 0;
+}
+
+.wrapper:hover .esport_img{
+    opacity: .5;
+    transform: scale(1.1);
+}
+
+.wrapper:hover .overlay{
+    opacity: 1;
+}
+
+.index_text {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
 }
