@@ -32,8 +32,14 @@ nav li a{
 
 .row{
     padding-left: 25px;
+    padding-top: 20px;
+}
+
+.asd{
+    padding-left: 25px;
     padding-top: 50px;
 }
+
 .esport_faze{
     height: 250px;
     width: 350px;
@@ -54,7 +60,7 @@ nav li a{
     width: 100%;
     height: auto;
     transform: .5s ease;
-    padding-top: 50px;
+    padding-top: 35px;
     transition: all 0.4s ease-in-out;
 }
 
@@ -110,6 +116,14 @@ h2 {
     height: 800px;
     width: auto;
     padding-right: 250px;
+}
+
+.esport_cim{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 41px;
 }
 
 p {
