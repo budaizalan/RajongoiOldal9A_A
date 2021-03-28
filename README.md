@@ -10,3 +10,5 @@ A Global Offensive kiadási időpontja 2012. augusztus 21. Microsoft Windows, OS
  - Kovács Ákos
  - Budai Zalán
  - Pallang Hunor
+ 
+ Az oldal megtekinthető itt: https://budaizalan.github.io/RajongoiOldal9A_A/
